@@ -3,63 +3,52 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport">
+    <title>GMDB</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="movies.js"></script>
 </head>
 
 <body>
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">GMDB</a>
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+    <nav class="nav-grid-container">
+        <div class="nav-grid-Navigation">
+            <a class="nav-grid-Home" href="#">GMDB</a>
+            <a class="nav-grid-Link" href="/home.html">Home</a>
+            <a class="nav-grid-Link" href="/login.html">Login</a>
+        </div>
+        <div class="nav-grid-Search">
+            <form class="">
+                <input class="searchInput" type="search" placeholder="Search" aria-label="Search">
+                <button class="searchButton" type="submit">Search</button>
+            </form>
         </div>
     </nav>
 
-
-    
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <span class="placeholder"></span>
-            </div>
-            <div class="col">
-                <span class="placeholder"></span>
-            </div>
-            <div class="col">
-                <span class="placeholder"></span>
-            </div>
-            <div class="col">
-                <span class="placeholder"></span>
-            </div>
-        </div>
+    <div class="movieSearch-grid-container">
+        <img src="https://posters.movieposterdb.com/22_05/2020/1745960/l_1745960_cc176006.jpg" id="topgun" alt="test"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/21_08/1999/133093/l_133093_1676007c.jpg" id="matrix" alt="martix"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/12_05/1977/76759/l_76759_7dc4ecb6.jpg" id="#" alt="starwars"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/22_07/1988/95016/l_95016_f442d27e.jpg" id="#" alt="diehard"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/13_06/1995/113243/l_113243_900d4179.jpg" id="#" alt="hackers"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/22_12/1999/389011/l_a-hot-dog-program-movie-poster_1bbcadec.jpg"
+            id="#" alt="hotdog" class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/05_02/2000/0208092/l_6853_0208092_f8b985d9.jpg" id="#" alt="snatch"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/23_01/1975/1986213/l_dnd-movie-poster_9153c074.jpg" id="#"
+            alt="dnd" class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/08_05/2008/910970/l_910970_af141fb9.jpg" id="#" alt="wall-e"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/06_05/1988/0096101/l_110451_0096101_d6d52ef8.jpg" id="shortcircut2" alt="test"
+            class="movieSearch-grid-item" />
+        <img src="https://posters.movieposterdb.com/08_03/1986/91949/l_91949_af964f35.jpg" id="#" alt="shortcircut"
+            class="movieSearch-grid-item" />
     </div>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,151 @@
+/* nav */
+.nav-grid-container {
+    background-color: #343a40;
+    height: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-grid-Navigation {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-grid-Home {
+    padding: 15px;
+    color: white;
+}
+
+.nav-grid-Link {
+    color: white;
+    padding: 2px;
+}
+
+.nav-grid-Search {
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.movieSearch-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2px;
+    grid-gap: 20px;
+}
+
+.movieSearch-grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+margin: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: auto;
+}
+
+/* loginInput */
+.login-grid-container {
+    display: grid;
+    grid-template-columns: auto 40% auto;
+}
+
+.login-grid-item {
+    grid-column: 2;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.loginInputContainer {
+    border: 1px solid grey;
+    color: grey;
+    text-align: left;
+    border-radius: 4px;
+    height: 30px;
+   
+}
+
+/* movie item details */
+.movieDetails-grid-container {
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 1em;
+}
+
+.movieImage-grid-item {
+    grid-row: 2;
+    /* Start on the first column line and extend all the to the last column line */
+    grid-column: 1 / 2;
+}
+
+.movieDetails-grid-item {
+    grid-row: 2;
+    /* Start on the first column line and extend all the to the last column line */
+    grid-column: 2 / 2;
+}
+
+.movieRating-grid-item {
+    /* font-size: 30px; */
+    grid-row: 3;
+    /* Start on the first column line and extend all the to the last column line */
+    grid-column: 1 / 4;
+    
+}
+
+/* goback-grid-item */
+/* used for all results items */
+.goback-grid-item {
+    background-color: gray;
+    grid-row: 1;
+    grid-column: 1 / 8;
+    border-radius: 5px;
+    text-align: left;
+    color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* searchBar */
+.searchInput {
+    border: 1px solid grey;
+    color: grey;
+    text-align: left;
+    border-radius: 4px;
+    height: 30px;
+   
+}
+
+/* Search Button */
+.searchButton {
+    border: 1px solid yellow;
+    border-radius: 4px;
+    text-align: center;
+    color: yellow;
+    margin: 5px;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+
+}
+
+.formButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    height: 25px;
+    width: 50px;
+}
